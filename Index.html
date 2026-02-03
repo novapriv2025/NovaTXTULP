@@ -33,8 +33,8 @@
 
     function instalar(url) {
       alert('Aquí se dispararía el Package Installer con: ' + url);
-      // En la PS4, aquí es donde usarías el esquema de URL de HEN
-      // Por ejemplo: window.location.href = "scheme-interno-del-handler:" + url;
+      // En tu PS4, aquí reemplazarías el alert con:
+      // window.location.href = "ps4pkginstaller://install?url=" + encodeURIComponent(url);
     }
   </script>
 </body>
