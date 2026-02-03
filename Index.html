@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mi Tienda PS4</title>
+  <title>Prueba Tienda PS4</title>
   <style>
     body { font-family: sans-serif; background:#222; color:#fff; }
     .app { margin:10px; padding:10px; border:1px solid #555; }
@@ -10,7 +10,7 @@
   </style>
 </head>
 <body>
-  <h1>Mi Tienda PS4</h1>
+  <h1>Prueba Tienda PS4</h1>
   <div id="catalogo"></div>
 
   <script>
@@ -32,7 +32,9 @@
       });
 
     function instalar(url) {
-      alert('Aquí se dispararía el handler de HEN / Package Installer con: ' + url);
+      alert('Aquí se dispararía el Package Installer con: ' + url);
+      // En la PS4, aquí es donde usarías el esquema de URL de HEN
+      // Por ejemplo: window.location.href = "scheme-interno-del-handler:" + url;
     }
   </script>
 </body>
